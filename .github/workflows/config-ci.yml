@@ -9,7 +9,7 @@ jobs:
     steps:
     - uses: actions/checkout@v5
     - name: Install tools
-      run: python3 -m pip install -r config-pipeline/requirements.txt
+      run: python3 -m pip install -r CNIT-381/config-pipeline/requirements.txt
     - name: Generate and validate configs
       run: |
         cd config-pipeline
