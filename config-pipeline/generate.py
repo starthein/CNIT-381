@@ -21,9 +21,7 @@ def validate(devices):
                 errors.append(f"{dev['name']} {intf['name']}: invalid IP {ip}")
                 continue
             if ip in seen:
-                errors.append(
-                    f"duplicate IP {ip} on {dev['name']} {intf['name']} and {seen[ip]}"
-                )
+                errors.append(f"duplicate IP {ip} on {dev['name']} {intf['name']} and {seen[ip]}")
             else:
                 seen[ip] = f"{dev['name']} {intf['name']}"
     return errors
