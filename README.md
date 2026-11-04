@@ -32,6 +32,13 @@ through the API when the plan has errors.
 What I did: configured OSPF manually, ran a provided playbook that automated it,
 and wrote my own playbook to back up the configs. What I learned: using CML to create and have a cisco based test environment.
 
-# Week 9: Build a Network and Automate It End to End What I built: a CML topology (2 routers, a
+## Week 9: Build a Network and Automate It End to End What I built: a CML topology (2 routers, a
 switch, and an Ubuntu control node), bootstrapped the devices by hand, then used Ansible to configure
 loopbacks, EIGRP, a login banner, and to back up all device What I learned: building a network in cml manually and setting up eigrp with anisible.
+
+## ## Week 10: Ansible on a CSR with the DEVASC VM
+What I did: moved from CML to the DEVASC VM and a CSR1000v, set up the hosts
+inventory and ansible.cfg, backed up the config, and configured IPv6.
+What I learned: purely using CML to configure ipv4 and ipv6 ansible playbooks
+Link:
+https://github.com/starthein/cnit381-week10
