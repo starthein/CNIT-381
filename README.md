@@ -42,3 +42,10 @@ inventory and ansible.cfg, backed up the config, and configured IPv6.
 What I learned: purely using CML to configure ipv4 and ipv6 ansible playbooks
 Link:
 https://github.com/starthein/cnit381-week10
+
+
+## Week 11: RESTCONF on a 3650 Switch
+What I did: enabled RESTCONF on the switch, then read and changed its config
+with Postman and a Python script. What I learned: use postman and ansible to configure a cisco 3650 switch
+Link:
+https://github.com/starthein/cnit-381-week11
