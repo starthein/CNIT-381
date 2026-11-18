@@ -49,3 +49,12 @@ What I did: enabled RESTCONF on the switch, then read and changed its config
 with Postman and a Python script. What I learned: use postman and ansible to configure a cisco 3650 switch
 Link:
 https://github.com/starthein/cnit-381-week11
+
+
+# Week 11 — AI Network Agent Web App
+**What I built:** A Streamlit web app on my CML Ubuntu node — an
+AI agent page that configures R1, R2, and SW1 from plain-English requests,
+and a live dashboard that shows interface status pulled from the devices.
+**What I learned:** How an MCP tool server, an AI model, and a web page fit
+together — the agent calls tools in a loop, and the dashboard reads the
+devices live instead of from a saved file
